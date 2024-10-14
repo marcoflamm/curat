@@ -1,3 +1,4 @@
+document.addEventListener("DOMContentLoaded", function () {
 if (window.innerWidth > 767) {
   gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
 
@@ -300,3 +301,4 @@ if (window.innerWidth > 767) {
     }
   });
 }
+});
